@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 
-const AppHeader = ({ toDo, done }) => {
+const Header = ({ toDo, done }) => {
 	return (
 		<div className='header d-flex'>
 			<h1>Todo List</h1>
@@ -12,4 +12,4 @@ const AppHeader = ({ toDo, done }) => {
 	);
 };
 
-export default AppHeader;
+export default Header;
